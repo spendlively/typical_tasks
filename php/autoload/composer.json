@@ -1,7 +1,7 @@
 {
   "autoload": {
     "psr-0": {
-      "PSR0": "psr0/"
+      "PSR0\\": "psr0/"
     },
     "psr-4": {
       "PSR4\\": "psr4/"

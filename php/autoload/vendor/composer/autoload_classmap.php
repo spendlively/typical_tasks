@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ClassMapNamespace\\JustClass' => $baseDir . '/JustClass.php',
+    'AnyNameSpace\\JustClass' => $baseDir . '/JustClass.php',
     'ClassMapNamespace\\MyClass' => $baseDir . '/classmap/MyClass.php',
 );
