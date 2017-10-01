@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-0": {
+      "PSR0": "psr0/"
+    },
+    "psr-4": {
+      "PSR4\\": "psr4/"
+    },
+    "classmap": [
+      "classmap/",
+      "JustClass.php"
+    ],
+    "files": [
+      "functions.php"
+    ]
+  }
+}
