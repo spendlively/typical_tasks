@@ -83,4 +83,7 @@ trait PersistentProperties
      */
     protected $sess_revalid = 'revalidated';
 
+    protected $sess_ukey = 'sid';
+    protected $col_ukey = 'user_key';
+
 }
