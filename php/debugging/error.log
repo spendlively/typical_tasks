@@ -1,0 +1,24 @@
+[10-Oct-2017 22:03:08 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: qwerty in /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php on line 8
+[10-Oct-2017 22:03:08 Asia/Krasnoyarsk] PHP Stack trace:
+[10-Oct-2017 22:03:08 Asia/Krasnoyarsk] PHP   1. {main}() /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php:0
+[10-Oct-2017 22:03:44 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: qwerty in /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php on line 8
+[10-Oct-2017 22:03:44 Asia/Krasnoyarsk] PHP Stack trace:
+[10-Oct-2017 22:03:44 Asia/Krasnoyarsk] PHP   1. {main}() /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php:0
+[10-Oct-2017 22:03:45 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: qwerty in /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php on line 8
+[10-Oct-2017 22:03:45 Asia/Krasnoyarsk] PHP Stack trace:
+[10-Oct-2017 22:03:45 Asia/Krasnoyarsk] PHP   1. {main}() /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php:0
+[10-Oct-2017 22:03:46 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: qwerty in /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php on line 8
+[10-Oct-2017 22:03:46 Asia/Krasnoyarsk] PHP Stack trace:
+[10-Oct-2017 22:03:46 Asia/Krasnoyarsk] PHP   1. {main}() /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php:0
+[10-Oct-2017 22:03:46 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: qwerty in /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php on line 8
+[10-Oct-2017 22:03:46 Asia/Krasnoyarsk] PHP Stack trace:
+[10-Oct-2017 22:03:46 Asia/Krasnoyarsk] PHP   1. {main}() /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php:0
+[10-Oct-2017 22:03:57 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: qwerty in /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php on line 8
+[10-Oct-2017 22:03:57 Asia/Krasnoyarsk] PHP Stack trace:
+[10-Oct-2017 22:03:57 Asia/Krasnoyarsk] PHP   1. {main}() /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php:0
+[10-Oct-2017 22:03:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: qwerty in /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php on line 8
+[10-Oct-2017 22:03:59 Asia/Krasnoyarsk] PHP Stack trace:
+[10-Oct-2017 22:03:59 Asia/Krasnoyarsk] PHP   1. {main}() /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php:0
+[10-Oct-2017 22:03:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: qwerty in /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php on line 8
+[10-Oct-2017 22:03:59 Asia/Krasnoyarsk] PHP Stack trace:
+[10-Oct-2017 22:03:59 Asia/Krasnoyarsk] PHP   1. {main}() /home/spendlively/vhosts/typical_tasks/typical_tasks/php/debugging/index.php:0
