@@ -131,21 +131,21 @@ class MysqlSessionHandler implements \SessionHandlerInterface
     public function read($session_id)
     {
         try {
-//            if ($this->useTransactions) {
+            if ($this->useTransactions) {
                 // MySQL's default isolation, REPEATABLE READ, causes deadlock for different sessions.
                 $this->db->exec('SET TRANSACTION ISOLATION LEVEL READ COMMITTED');
                 $this->db->beginTransaction();
-//            } else {
-//                $this->unlockStatements[] = $this->getLock($session_id);
-//            }
+            } else {
+                $this->unlockStatements[] = $this->getLock($session_id);
+            }
             $sql = "SELECT $this->col_expiry, $this->col_data
             FROM $this->table_sess WHERE $this->col_sid = :sid";
             // When using a transaction, SELECT FOR UPDATE is necessary
             // to avoid deadlock of connection that starts reading
             // before we write.
-//            if ($this->useTransactions) {
+            if ($this->useTransactions) {
                 $sql .= ' FOR UPDATE';
-//            }
+            }
             $selectStmt = $this->db->prepare($sql);
             $selectStmt->bindParam(':sid', $session_id);
             $selectStmt->execute();
@@ -159,9 +159,9 @@ class MysqlSessionHandler implements \SessionHandlerInterface
             }
             // We'll get this far only if there are no results, which means
             // the session hasn't yet been registered in the database.
-//            if ($this->useTransactions) {
+            if ($this->useTransactions) {
                 $this->initializeRecord($selectStmt);
-//            }
+            }
             // Return an empty string if transactions aren't being used
             // and the session hasn't yet been registered in the database.
             return '';
