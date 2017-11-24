@@ -15,5 +15,5 @@ var_dump(debug_backtrace());
 //xdebug.collect_vars = 1
 //xdebug.show_local_vars = 1
 //xdebug.collect_params = 4
-var_dump(xdebug_get_declared_vars(''));
+var_dump(xdebug_get_declared_vars());
 
