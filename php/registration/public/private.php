@@ -6,6 +6,12 @@ require_once '../vendor/Lib/User.php';
 
 session_start();
 
+if(!isset($_SESSION['userId'])){
+    if(!headers_sent()){
+        header("Location: /");
+    }
+}
+
 $message = 'Ошибка';
 if($user = User::findById($_SESSION['userId'])){
     $message = 'Привет, ' . htmlspecialchars($user->name);
@@ -23,7 +29,7 @@ if($user = User::findById($_SESSION['userId'])){
             if(xhr.readyState != 4) return;
             if(xhr.status === 200){
                 if(xhr.statusText === 'OK'){
-                    window.location.href = '/';
+                    redirectOnMainPage();
                 }
             }
         };
@@ -39,12 +45,16 @@ if($user = User::findById($_SESSION['userId'])){
             if(xhr.readyState != 4) return;
             if(xhr.status === 200){
                 if(xhr.statusText === 'OK'){
-                    window.location.href = '/';
+                    redirectOnMainPage();
                 }
             }
         };
         xhr.send();
 
+    }
+
+    function redirectOnMainPage(){
+        window.location.href = '/';
     }
 </script>
 

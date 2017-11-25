@@ -6,7 +6,6 @@ require_once '../vendor/Lib/User.php';
 
 session_start();
 
-var_dump("qwerty");die();
 
 if(isset($_GET['cmd'])){
 
@@ -15,6 +14,7 @@ if(isset($_GET['cmd'])){
             exitUser();
             break;
         case 'del':
+            deleteUser();
             break;
         default:
             echo "Error";die();
